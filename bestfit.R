@@ -6,3 +6,5 @@ bestfit <- function(bestdegree, datos, regresor, respuesta){
   modelo <- glm(respuesta ~ poly(regresor, bestdegree), data = datos)
   return(modelo)
 }
+
+# He añadido esta línea para hacer un push a remoto y después un PULL REQUEST para hacer un merge a MAIN
